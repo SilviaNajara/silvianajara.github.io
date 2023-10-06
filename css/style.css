@@ -271,3 +271,24 @@ footer{
     font-size: 16px;
     text-align: center;
 }
+
+@media all and (max-width: 700px){
+    #menu{
+        visibility: hidden; /*Esconde a visibilidade do Menu*/
+    }
+
+    #logoDiv{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        
+    }
+    #logo{
+        margin-left: 10px;
+        transform: translateX(-50%); /*Atributo para fazer a imagem se movimentar no eixo X*/
+    }
+    #minhaImagem{
+        margin-left: 30%;
+    }
+
+}
